@@ -16,3 +16,4 @@ def call(String githubToken, String imageName, String gitUserEmail, String gitUs
     // sh "sed -i 's|image:.*|image: ${imageName}:${BUILD_NUMBER}|g' deployment.yaml"
 
 }
+}
